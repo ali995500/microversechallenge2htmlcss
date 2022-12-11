@@ -1,3 +1,22 @@
+#navbar{
+display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding-right: 10px;
+    background: red;
+  
+    }
+    #navbar a {
+        text-decoration: none;
+        color:white;
+
+    }
+
+
 .welcome-section {
     display: flex;
     flex-direction: column;
@@ -14,4 +33,5 @@
       font-size: 60%;
     }
   }
+  
   
